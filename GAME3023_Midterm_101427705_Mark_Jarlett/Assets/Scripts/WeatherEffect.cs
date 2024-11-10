@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewWeatherEffect", menuName = "Effects/Weather")]
+[CreateAssetMenu(fileName = "NewWeatherEffect", menuName = "Effects/WeatherEffect")]
 public class WeatherEffect : Effect
 {
     public override void ApplyEffect()
