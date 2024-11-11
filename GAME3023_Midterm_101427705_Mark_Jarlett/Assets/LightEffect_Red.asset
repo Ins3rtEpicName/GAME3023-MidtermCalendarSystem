@@ -15,7 +15,7 @@ MonoBehaviour:
   lightGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.12019401, b: 0.12019401, a: 1}
-    key1: {r: 0.2735849, g: 0.20776966, b: 0.20776966, a: 1}
+    key1: {r: 0.509434, g: 0, b: 0, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}

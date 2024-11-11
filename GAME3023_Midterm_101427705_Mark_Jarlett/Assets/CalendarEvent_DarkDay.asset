@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5b50a6379fe9347b6df1321ec45ade, type: 3}
   m_Name: CalendarEvent_DarkDay
   m_EditorClassIdentifier: 
-  eventSprite: {fileID: 0}
+  eventSprite: {fileID: 21300000, guid: 1a14863177d5e9840ae773dae646072e, type: 3}
   description: The sun has disappeared!!
   effects:
   - {fileID: 11400000, guid: cb3f8e28ae0b81d40a3bdfdf8cb04606, type: 2}

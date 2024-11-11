@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CalenderEvent_Rain
   m_EditorClassIdentifier: 
   eventSprite: {fileID: 0}
-  description: 
+  description: Rainy day
   effects:
   - {fileID: 11400000, guid: 83c8f19f4c44b1949bbf7aa65f397ab9, type: 2}

@@ -1,7 +1,8 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using Microsoft.Unity.VisualStudio.Editor;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CalendarDay : MonoBehaviour
 {
@@ -13,13 +14,7 @@ public class CalendarDay : MonoBehaviour
     // called in editor when things change on this object
     void OnValidate()
     {
-        if (events.Count > 0)
-        {
-            foreach (CalenderEvent calenderEvent in events)
-            {
-                // add sprites to the calendar day
-            }
-        }
+        
     }
 #endif
 
@@ -27,6 +22,20 @@ public class CalendarDay : MonoBehaviour
     void Start()
     {
         dayNightCycle = GameObject.Find("Global Light 2D").GetComponent<DayNightCycle>();
+
+        float spriteAnchorX = 0.0f; 
+        float spriteAnchorY = 0.0f; 
+        if (events.Count > 0)
+        {
+            foreach (CalenderEvent calenderEvent in events)
+            {
+                // add sprites to the calendar day
+                if (calenderEvent.eventSprite != null)
+                {
+                    //GetComponentInChildren<Image>().sprite = calenderEvent.eventSprite;
+                }
+            }
+        }
     }
 
     // Update is called once per frame

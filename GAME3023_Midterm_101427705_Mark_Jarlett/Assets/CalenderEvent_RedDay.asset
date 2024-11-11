@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CalenderEvent_RedDay
   m_EditorClassIdentifier: 
   eventSprite: {fileID: 0}
-  description: 
+  description: Red Evil Day!
   effects:
   - {fileID: 11400000, guid: b3a7e4bb80131c34d8be1837c0bbc53c, type: 2}
