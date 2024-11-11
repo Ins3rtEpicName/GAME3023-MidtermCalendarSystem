@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a387dc93e69fe34bb74d9328ea24967, type: 3}
-  m_Name: LightEffect_Darkness
+  m_Name: LightEffect_Red
   m_EditorClassIdentifier: 
   lightGradient:
     serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 0, g: 0, b: 0, a: 1}
+    key0: {r: 0.6886792, g: 0.12019401, b: 0.12019401, a: 1}
+    key1: {r: 0.2735849, g: 0.20776966, b: 0.20776966, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}

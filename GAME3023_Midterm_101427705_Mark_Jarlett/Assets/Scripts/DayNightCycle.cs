@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -13,7 +14,7 @@ public class DayNightCycle : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private float normalizedTime;
 
-    public float day = 0;
+    public float day = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -38,4 +39,5 @@ public class DayNightCycle : MonoBehaviour
     {
         sunColor = gradient;
     }
+
 }
