@@ -7,6 +7,6 @@ public class WeatherEffect : Effect
 {
     public override void ApplyEffect()
     {
-        throw new System.NotImplementedException();
+        
     }
 }

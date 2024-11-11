@@ -8,8 +8,9 @@ public class CalenderEvent : ScriptableObject
     public Sprite eventSprite;
     public string description = "";
     public List<Effect> effects;
-    public virtual void ApplyEffect()
+    public virtual void ApplyEffects()
     {
+        Debug.Log("Apply Effects");
         foreach (Effect effect in effects)
         {
             effect.ApplyEffect();
