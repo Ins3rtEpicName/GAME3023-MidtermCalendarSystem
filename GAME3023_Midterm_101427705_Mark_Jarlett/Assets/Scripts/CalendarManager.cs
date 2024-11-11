@@ -27,9 +27,33 @@ public class CalendarManager : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        Movement2D.OnCalendarVisibilityChangeEvent += ToggleCalendarVisibility;
+    }
+
+    private void OnDisable()
+    {
+        Movement2D.OnCalendarVisibilityChangeEvent -= ToggleCalendarVisibility;
+    }
+
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void ToggleCalendarVisibility()
+    {
+        if (GetComponentInParent<Canvas>().GetComponent<CanvasGroup>().alpha == 0)
+        {
+            GetComponentInParent<Canvas>().GetComponent<CanvasGroup>().alpha = 1;
+            GetComponentInParent<Canvas>().GetComponent<CanvasGroup>().interactable = true;
+        }
+        else
+        {
+            GetComponentInParent<Canvas>().GetComponent<CanvasGroup>().alpha = 0;
+            GetComponentInParent<Canvas>().GetComponent<CanvasGroup>().interactable = false;
+        }
     }
 }

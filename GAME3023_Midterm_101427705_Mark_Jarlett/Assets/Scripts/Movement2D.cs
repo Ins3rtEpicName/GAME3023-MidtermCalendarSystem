@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,8 @@ using UnityEngine;
 // GameObject without the other required component type
 public class Movement2D : MonoBehaviour
 {
+    public static Action OnCalendarVisibilityChangeEvent;
+
     [SerializeField] // SerializeField is an attribute which says that this variable can be saved,
                      // and will be saved in the scene
     public Rigidbody2D rb;
@@ -35,5 +38,10 @@ public class Movement2D : MonoBehaviour
 
         Vector3 position;
         position.x = 1;
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            OnCalendarVisibilityChangeEvent?.Invoke();
+        }
     }
 }

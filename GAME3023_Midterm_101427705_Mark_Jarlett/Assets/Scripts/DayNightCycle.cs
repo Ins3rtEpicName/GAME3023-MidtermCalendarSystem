@@ -33,4 +33,9 @@ public class DayNightCycle : MonoBehaviour
         string timeString = "Time: " + $"{hour:00}:{min:00}";
         timeText.text = timeString;
     }
+
+    public void ChangeSunGradient(Gradient gradient)
+    {
+        sunColor = gradient;
+    }
 }
