@@ -10,10 +10,10 @@ public class DayNightCycle : MonoBehaviour
 {
     [SerializeField] private Light2D sun;
     [SerializeField] private Gradient sunColor;
-    [SerializeField] private float dayDurationSeconds;
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private float normalizedTime;
 
+    public float dayDurationSeconds;
     public float day = 1;
 
     // Start is called before the first frame update

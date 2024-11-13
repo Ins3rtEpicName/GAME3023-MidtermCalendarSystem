@@ -1756,16 +1756,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 974699035825300878, guid: 6721d8c1ae4eda347a7ec55f1fed1c9f, type: 3}
       propertyPath: events.Array.size
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 974699035825300878, guid: 6721d8c1ae4eda347a7ec55f1fed1c9f, type: 3}
       propertyPath: events.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 313b7bb1504e75f4f89266f0968bcb72, type: 2}
+      objectReference: {fileID: 11400000, guid: 4c81cafe48ca2f74ba3da6b03c55ec28, type: 2}
     - target: {fileID: 974699035825300878, guid: 6721d8c1ae4eda347a7ec55f1fed1c9f, type: 3}
       propertyPath: events.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 9c1911057491ea745bc7663dc8c9ad7e, type: 2}
+      objectReference: {fileID: 11400000, guid: bcec7b942e28f98409996b2fccf45597, type: 2}
     - target: {fileID: 3039388275306081996, guid: 6721d8c1ae4eda347a7ec55f1fed1c9f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3820,6 +3820,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   calendarDaysList: []
+--- !u!1001 &3279347462906612437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.731375
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.158009
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.939749
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 520608394382820995, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368942316088747842, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804904948191927255, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba68bf94f495bc844ace75d13316d6e1, type: 3}
 --- !u!1001 &3821531933616031403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4037,3 +4098,4 @@ SceneRoots:
   - {fileID: 2044736058}
   - {fileID: 2102325683}
   - {fileID: 85131970}
+  - {fileID: 3279347462906612437}

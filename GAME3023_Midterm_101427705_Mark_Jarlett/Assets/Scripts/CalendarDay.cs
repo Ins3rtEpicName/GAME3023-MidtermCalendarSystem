@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +11,7 @@ public class CalendarDay : MonoBehaviour
     [SerializeField] private List<GameObject> eventIcons = new List<GameObject>(2);
     private DayNightCycle dayNightCycle;
     public int date;
+    private bool bStartEvent = true;
 
 #if UNITY_EDITOR
     // called in editor when things change on this object
@@ -46,8 +48,9 @@ public class CalendarDay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (date == Mathf.FloorToInt(dayNightCycle.day))
+        if (date == Mathf.FloorToInt(dayNightCycle.day) && bStartEvent)
         {
+            bStartEvent = false;
             foreach (CalenderEvent calenderEvent in events)
             {
                 calenderEvent.ApplyEffects();
