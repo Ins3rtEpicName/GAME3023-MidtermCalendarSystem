@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5b50a6379fe9347b6df1321ec45ade, type: 3}
   m_Name: CalenderEvent_Rain
   m_EditorClassIdentifier: 
-  eventSprite: {fileID: 0}
-  description: Rainy day
+  eventSprite: {fileID: 21300000, guid: 6a19d594b2f397b409bcde16ed9c8826, type: 3}
+  description: Rainy day.
   effects:
   - {fileID: 11400000, guid: 83c8f19f4c44b1949bbf7aa65f397ab9, type: 2}
