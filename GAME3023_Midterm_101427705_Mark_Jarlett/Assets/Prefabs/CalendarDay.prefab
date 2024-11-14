@@ -424,4 +424,5 @@ MonoBehaviour:
   eventIcons:
   - {fileID: 6945002827677449310}
   - {fileID: 4922802091211382391}
+  eventsUIHoverGameObject: {fileID: 1168241417653830752, guid: 8334d112b77de4c49bacfc74ac73dbce, type: 3}
   date: 0
