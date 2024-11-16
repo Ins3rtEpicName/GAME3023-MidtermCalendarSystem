@@ -16,3 +16,4 @@ MonoBehaviour:
   description: The sun has disappeared!!
   effects:
   - {fileID: 11400000, guid: cb3f8e28ae0b81d40a3bdfdf8cb04606, type: 2}
+  - {fileID: 11400000, guid: ccdb38747f0385144b268a3a7bfc631f, type: 2}
